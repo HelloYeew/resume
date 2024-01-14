@@ -1,0 +1,101 @@
+{
+	"intro": {
+		"name": "Phawit Pornwattanakul",
+		"nickname": "Folk",
+		"phone": "",
+		"email": "me@helloyeew.dev",
+		"github": "HelloYeew",
+		"linkedin": "helloyeew",
+		"location": "Pathum Thani, Thailand",
+		"website": "helloyeew.dev"
+	},
+	"projects": [
+		{
+			"name": "Rūrusetto",
+			"details": "A wiki that contain all osu! rulesets",
+			"url": "rulesets.info",
+			"hide": false
+		},
+		{
+			"name": "Renako",
+			"details": "A cross-platform rhythm game that's not just a rhythm game using osu!framework",
+			"url": "github.com/HelloYeew/renako",
+			"hide": false
+		},
+		{
+			"name": "Atena",
+			"details": "A place for dropping a build artifact from CI pipelines",
+			"url": "github.com/HelloYeew/atena",
+			"hide": false
+		},
+		{
+			"name": "Asuna",
+			"details": "A code coverage report tool for your project",
+			"url": "asuna.helloyeew.dev",
+			"hide": false
+		},
+		{
+			"name": "Freedom Dive",
+			"details": "A private osu!lazer server that fully support custom rulesets (archived)",
+			"url": "github.com/HelloYeew/freedom-dive",
+			"hide": false
+		},
+		{
+			"name": "HelloYeew theme",
+			"details": "My applied color scheme for better coding experience in language that I use",
+			"url": "plugins.jetbrains.com/plugin/22883-helloyeew-theme",
+			"hide": false
+		}
+	],
+	"technologies": [
+		{
+			"section": "Languages:",
+			"details": "Python, C#, Java, JavaScript, Node.js, TypeScript, HTML, CSS"
+		},
+		{
+			"section": "Frameworks:",
+			"details": "Django, Express.js, Svelte, Bootstrap, TailwindCSS, .NET, ASP.NET"
+		},
+		{
+			"section": "Tools:",
+			"details": "Git, Docker, Zsh, JetBrains IDEs (esp. PyCharm, Rider and IntelliJ), VSCode"
+		},
+		{
+			"section": "Other:",
+			"details": "Netlify, Vercel, DigitalOcean, AWS, Github Actions, Cloudflare, DataDog, NewRelic, Sentry"
+		}
+	],
+	"workExperiences": [
+		{
+			"position": "Software Engieer (Full-stack)",
+			"company": "Erudite Company Limited",
+			"url": "https://erd.ai",
+			"years": ["2022", "Current"],
+			"details": [
+				"Create backend for e-commerce application using Express.js and some frontend using Svelte",
+				"Help on some infrastructure design and project deployment using AWS and Huawei Cloud",
+				"Set pipeline for deploy mobile application projects to Play Store and App Store for both internal test and public",
+				"Create some internal tools for company use such as GitHub Action artifacts storage, etc.",
+				"Implement backend and frontend (admin panel) for investment application using Django",
+				"Implement backend for some company's projects using Django and ASP.NET (for project that require performance)",
+				"Integrate some project with third-party services such as OPN, NDID"
+			]
+		}
+	],
+	"educations": [
+		{
+			"head": "B.Eng. Software and Knowledge Engineering",
+			"details": "Kasetsart University, TH. 2020-2024 (GPA until 4th year first semester : 3.19)"
+		}
+	],
+	"interests": [
+		"Areas : Coding, Anime, Manga, Novel, Light Novel, Movie",
+		"Coding interests : Web development, Backend development, DevOps, Game development, Low-level graphic / game engine development, Productivity tools",
+		"Games : Rhythm games, RPG",
+		"Music : J-Pop, Anime OST, Trance, EDM"
+	],
+	"resumeUrl": {
+		"sourceLink": "https://github.com/HelloYeew/resume",
+		"fullVersion": "https://resume.helloyeew.dev"
+	}
+}
