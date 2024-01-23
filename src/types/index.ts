@@ -12,6 +12,7 @@ export interface IProfileResp {
 }
 export interface IIntro {
 	name: string;
+	imageUrl: string;
 	nickname: string;
 	phone: string;
 	email: string;

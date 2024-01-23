@@ -7,6 +7,7 @@
 	export let linkedin: string = '';
 	export let location: string = '';
 	export let website: string = '';
+	export let imageUrl: string = '';
 </script>
 
 <div class="flex flex-wrap flex-col sm:flex-row print:flex-row text-sm sm:text-base">
@@ -17,10 +18,17 @@
 	</div>
 
 	<h2
-		class="flex-none order-first sm:order-none print:order-none text-4xl sm:text-2xl md:text-3xl lg:text-6xl text-center p-4 print:pt-0"
+		class="flex flex-row gap-4 order-first sm:order-none print:order-none text-4xl sm:text-2xl md:text-3xl lg:text-6xl text-center p-4 print:pt-0"
 	>
-		{name}
-		<span class="block -mt-1 text-base lg:text-lg">({nickname})</span>
+		{#if imageUrl}
+		<div class="hidden sm:block">
+			<img src="{imageUrl}" alt="Profile" class="w-32 h-32 rounded-full shadow-lg" />
+		</div>
+		{/if}
+		<div class="flex flex-col justify-center">
+			{name}
+			<span class="block -mt-1 text-base lg:text-lg">({nickname})</span>
+		</div>
 	</h2>
 
 	<div class="flex-1 text-left sm:text-right print:text-right sm:py-4 w-48 text-sm sm:text-base">
