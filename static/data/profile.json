@@ -12,6 +12,12 @@
 	},
 	"projects": [
 		{
+			"name": "Story",
+			"details": "My personal blog using modified Ghost",
+			"url": "story.helloyeew.dev",
+			"hide": false
+		},
+		{
 			"name": "Rūrusetto",
 			"details": "A wiki that contain all osu! rulesets",
 			"url": "rulesets.info",
@@ -32,7 +38,7 @@
 		{
 			"name": "Asuna",
 			"details": "A code coverage report tool for your project",
-			"url": "asuna.helloyeew.dev",
+			"url": "github.com/HelloYeew/asuna",
 			"hide": false
 		},
 		{
@@ -43,7 +49,7 @@
 		},
 		{
 			"name": "HelloYeew theme",
-			"details": "My applied color scheme for better coding experience in language that I use",
+			"details": "My applied color scheme for better coding experience in language that I use in JetBrain IDE platform.",
 			"url": "plugins.jetbrains.com/plugin/22883-helloyeew-theme",
 			"hide": false
 		}
@@ -51,7 +57,7 @@
 	"technologies": [
 		{
 			"section": "Languages:",
-			"details": "Python, C#, Java, JavaScript, Node.js, TypeScript, HTML, CSS"
+			"details": "Python, C#, Java, JavaScript, Node.js, TypeScript, HTML, CSS, C++"
 		},
 		{
 			"section": "Frameworks:",
@@ -63,12 +69,12 @@
 		},
 		{
 			"section": "Other:",
-			"details": "Netlify, Vercel, DigitalOcean, AWS, Github Actions, Cloudflare, DataDog, NewRelic, Sentry"
+			"details": "Netlify, Vercel, DigitalOcean, AWS, Huawei Cloud, Github Actions, Cloudflare, DataDog, NewRelic, Sentry"
 		}
 	],
 	"workExperiences": [
 		{
-			"position": "Software Engieer (Full-stack)",
+			"position": "Part-time Full-stack Software Engineer",
 			"company": "Erudite Company Limited",
 			"url": "https://erd.ai",
 			"years": ["2022", "Current"],
@@ -78,7 +84,8 @@
 				"Set pipeline for deploy mobile application projects to Play Store and App Store for both internal test and public",
 				"Create some internal tools for company use such as GitHub Action artifacts storage, etc.",
 				"Implement backend and frontend (admin panel) for investment application using Django",
-				"Implement backend for some company's projects using Django and ASP.NET (for project that require performance)",
+				"Implement backend for some more company's projects using Django and ASP.NET (for project that require performance)",
+				"Improve some company's software development workflow for software development such as GitHub flow, unit testing, etc.",
 				"Integrate some project with third-party services such as OPN, NDID"
 			]
 		}
