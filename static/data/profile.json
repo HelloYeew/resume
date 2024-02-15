@@ -52,6 +52,12 @@
 			"details": "My applied color scheme for better coding experience in language that I use in JetBrain IDE platform.",
 			"url": "plugins.jetbrains.com/plugin/22883-helloyeew-theme",
 			"hide": false
+		},
+		{
+			"name": "More projects",
+			"details": "All of my projects and my contributions can be found on my GitHub profile",
+			"url": "github.com/HelloYeew",
+			"hide": false
 		}
 	],
 	"technologies": [
@@ -99,8 +105,7 @@
 	"interests": [
 		"Areas : Coding, Anime, Manga, Novel, Light Novel, Movie",
 		"Coding interests : Web development, Backend development, DevOps, Game development, Low-level graphic / game engine development, Productivity tools",
-		"Games : Rhythm games, RPG",
-		"Music : J-Pop, Anime OST, Trance, EDM"
+		"Language : Thai (Native), English (Business), Japanese (Elementary)"
 	],
 	"resumeUrl": {
 		"sourceLink": "https://github.com/HelloYeew/resume",
