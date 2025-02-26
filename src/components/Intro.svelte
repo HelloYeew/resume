@@ -22,7 +22,7 @@
 	>
 		{#if imageUrl}
 		<div class="hidden sm:block">
-			<img src="{imageUrl}" alt="Profile" class="w-32 h-32 rounded-full shadow-lg print:shadow-none" />
+			<img src="{imageUrl}" alt="Profile" class="w-32 h-32 print:w-20 print:h-20 rounded-full shadow-lg print:shadow-none" />
 		</div>
 		{/if}
 		<div class="flex flex-col justify-center">

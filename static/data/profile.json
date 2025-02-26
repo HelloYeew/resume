@@ -12,15 +12,15 @@
 	},
 	"projects": [
 		{
-			"name": "Story",
-			"details": "My personal blog using modified Ghost",
-			"url": "story.helloyeew.dev",
-			"hide": false
-		},
-		{
 			"name": "Rūrusetto",
 			"details": "A wiki that contain all osu! rulesets",
 			"url": "rulesets.info",
+			"hide": false
+		},
+		{
+			"name": "Homepage",
+			"details": "My custom homepage build with performance in mind using Astro",
+			"url": "helloyeew.dev",
 			"hide": false
 		},
 		{
@@ -45,6 +45,12 @@
 			"name": "Freedom Dive",
 			"details": "A private osu!lazer server that fully support custom rulesets (archived)",
 			"url": "github.com/HelloYeew/freedom-dive",
+			"hide": true
+		},
+		{
+			"name": "KanaMelody",
+			"details": "A cross-platform music player based on AvaloniaUI",
+			"url": "github.com/HelloYeew/kana-melody",
 			"hide": false
 		},
 		{
@@ -63,11 +69,11 @@
 	"technologies": [
 		{
 			"section": "Languages:",
-			"details": "Python, C#, Java, JavaScript, Node.js, TypeScript, HTML, CSS, C++"
+			"details": "C#, Python, TypeScript, JavaScript, HTML, CSS, Java, C++, SQL"
 		},
 		{
 			"section": "Frameworks:",
-			"details": "Django, Express.js, Svelte, Bootstrap, TailwindCSS, .NET, ASP.NET"
+			"details": "Django, Express.js, Nest.JS, Astro, Bootstrap, TailwindCSS, .NET, ASP.NET, Blazor"
 		},
 		{
 			"section": "Tools:",
@@ -75,22 +81,22 @@
 		},
 		{
 			"section": "Other:",
-			"details": "Netlify, Vercel, DigitalOcean, AWS, Huawei Cloud, Github Actions, Cloudflare, DataDog, NewRelic, Sentry"
+			"details": "Netlify, Vercel, DigitalOcean, AWS, Huawei Cloud, Github Actions, Cloudflare, DataDog, NewRelic, Sentry, Grafana stack (Loki, Tempo), Prometheus"
 		}
 	],
 	"workExperiences": [
 		{
-			"position": "Part-time Full-stack Software Engineer",
+			"position": "Full-stack Software Engineer",
 			"company": "Erudite Company Limited",
 			"url": "https://erd.ai",
-			"years": ["2022", "Current"],
+			"years": ["May 2022", "Current"],
 			"details": [
 				"Create backend for e-commerce application using Express.js and some frontend using Svelte",
 				"Help on some infrastructure design and project deployment using AWS and Huawei Cloud",
 				"Set pipeline for deploy mobile application projects to Play Store and App Store for both internal test and public",
 				"Create some internal tools for company use such as GitHub Action artifacts storage, etc.",
-				"Implement backend and frontend (admin panel) for investment application using Django",
-				"Implement backend for some more company's projects using Django and ASP.NET (for project that require performance)",
+				"Implement backend and frontend (admin panel) for investment application using Django and TailwindCSS",
+				"Implement backend for some more company's projects using Django, Nest.JS, ASP.NET (for project that require performance)",
 				"Improve some company's software development workflow for software development such as GitHub flow, unit testing, etc.",
 				"Integrate some project with third-party services such as OPN, NDID"
 			]
@@ -99,12 +105,11 @@
 	"educations": [
 		{
 			"head": "B.Eng. Software and Knowledge Engineering",
-			"details": "Kasetsart University, TH. 2020-2024 (GPA until 4th year first semester : 3.19)"
+			"details": "Kasetsart University, TH. 2020-2024 (GPA : 3.27)"
 		}
 	],
 	"interests": [
-		"Areas : Coding, Anime, Manga, Novel, Light Novel, Movie",
-		"Coding interests : Web development, Backend development, DevOps, Game development, Low-level graphic / game engine development, Productivity tools",
+		"Coding interests : Web development (esp. Backend), DevOps, Low-level graphic / game engine development, Performance tuning, Productivity tools",
 		"Language : Thai (Native), English (Business), Japanese (Elementary)"
 	],
 	"resumeUrl": {
