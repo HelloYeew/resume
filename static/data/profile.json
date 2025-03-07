@@ -73,11 +73,11 @@
 		},
 		{
 			"section": "Frameworks:",
-			"details": "Django, Express.js, Nest.JS, Astro, Bootstrap, TailwindCSS, .NET, ASP.NET, Blazor"
+			"details": "Django, Express.js, .NET, ASP.NET, Blazor, Nest.JS, Astro, Bootstrap, TailwindCSS"
 		},
 		{
 			"section": "Tools:",
-			"details": "Git, Docker, Zsh, JetBrains IDEs (esp. PyCharm, Rider and IntelliJ), VSCode"
+			"details": "Git, Docker, Zsh, JetBrains IDEs (esp. Rider, PyCharm and IntelliJ), VSCode"
 		},
 		{
 			"section": "Other:",
